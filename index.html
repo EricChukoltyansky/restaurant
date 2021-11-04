@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Le Mensch</title>
-</head>
-<body>
-    <div class="menu-wrap">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger"><div></div></div>
-        <div class="menu">
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/menu.css" />
+  </head>
+  <body>
+    <div id="page1">
+      <div class="menu-wrap">
+        <div>
+          <input type="checkbox" class="toggler" />
+          <div class="hamburger"><div></div></div>
+          <div class="menu">
             <div>
-                <div>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+              <div>
+                <ul>
+                  <li><a class="hover" href="#">HOME</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">MENU</a></li>
+                  <li><a href="#">CONTACT</a></li>
+                  <li><a href="#">RESERVATION</a></li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
+        <div><button>MAKE A RESERVATION</button></div>
+      </div>
+
+      <!-- HEADER -->
+
+      <header id="showcase">
+        <div class="container showcase-container">
+            <h1>LE MENSCH</h1>
+        </div>
+      </header>
     </div>
-   <header>
-       <nav>
-           <div><input type="button" value="">MAKE A RESERVATION</div>
-           <div></div>
-       </nav>
-   </header>
-</body>
+  </body>
 </html>
