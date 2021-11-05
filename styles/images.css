@@ -1,44 +1,167 @@
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    /* grid-template-rows: auto auto auto; */
-    /* grid-gap: 0.1rem; */
-    width: 100vw;
-    height: 100vh;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Nanum+Gothic+Coding&display=swap");
 
-.item-1 {
-    background-image: url('/assets/img/mads-eneqvist-izxSMW8I5Ts-unsplash.jpg');
-    background-position: center;
-    background-size: cover;
-    grid-column: 1/ span 2;
-    width: 66.6vw;
-    height: 50vh;
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  /* grid-template-rows: auto auto auto; */
+  /* grid-gap: 0.1rem; */
+  width: 100vw;
+  height: 100vh;
 }
 
+.item-1 {
+  background-image: url("/assets/img/mads-eneqvist-izxSMW8I5Ts-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  grid-column: 1 / span 2;
+  width: 66.6vw;
+  height: 50vh;
+  position: relative;
+  color: white;
+  z-index: 5;
+  
+  padding: 5rem;
+  
+}
+
+.item-1::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -5;
+}
+
+.item-1 h3 {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+.item-1 hr {
+  width: 53%;
+}
+
+.item-1 h2 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Merienda", cursive;
+}
+
+.item-1 h4 {
+  font-family: "Nanum Gothic Coding", monospace;
+  line-height: 16px;
+  font-weight: 600;
+  
+}
+
+.container .item-1 .btn {
+  color: white;
+  border: 1px solid white;
+  margin-top: 2rem;
+  position: absolute;
+  top: 10rem;
+  font-family: "Nanum Gothic Coding", monospace;
+  width: 6rem;
+  height: 1.5rem;
+  text-align: center;
+  line-height:23px;
+  font-weight: 700;
+}
+
+.container .item-1 .btn:hover {
+    background-color: white;
+    color: #0B090A;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
 .item-2 {
-    background-image: url('/assets/img/delightin-dee--iBOhlbX32s-unsplash.jpg') ;
-    background-position: center;
-    background-size: cover;
-    grid-column: 3/ span 1;
-    width:33.3vw;
-    height: 50vh;
+  background-image: url("/assets/img/delightin-dee--iBOhlbX32s-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  grid-column: 3 / span 1;
+  width: 33.3vw;
+  height: 50vh;
 }
 
 .item-3 {
-    background-image: url('/assets/img/delightin-dee-JSE2mRfuan8-unsplash.jpg');
-    background-position: center;
-    background-size: cover;
-    grid-column: 1/ span 1;
-    width: 33.3vw;
-    height: 50vh;
+  background-image: url("/assets/img/delightin-dee-JSE2mRfuan8-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  grid-column: 1 / span 1;
+  width: 33.3vw;
+  height: 50vh;
 }
 
 .item-4 {
-    background-image: url('/assets/img/pexels-taryn-elliott-4457125.jpg') ;
-    background-position: 40% 60%;
-    background-size: cover;
-    grid-column: 2/ span 2;
-    width:66.6vw;
-    height: 50vh;
+  background-image: url("/assets/img/pexels-taryn-elliott-4457125.jpg");
+  background-position: 40% 60%;
+  background-size: cover;
+  grid-column: 2 / span 2;
+  width: 66.6vw;
+  height: 50vh;
+  position: relative;
+  color: white;
+  z-index: 5;
+  
+  padding: 5rem;
 }
+
+.item-4::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.item-4 h3 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Nanum Gothic Coding", monospace;
+  }
+  
+  .item-4 hr {
+    width: 90%;
+  }
+  
+  .item-4 h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Merienda", cursive;
+  }
+  
+  .item-4 h4 {
+    font-family: "Nanum Gothic Coding", monospace;
+    line-height: 16px;
+    font-weight: 600;
+    
+  }
+  
+  .container .item-4 .btn {
+    color: white;
+    border: 1px solid white;
+    margin-top: 2rem;
+    position: absolute;
+    top: 11.5rem;
+    font-family: "Nanum Gothic Coding", monospace;
+    width: 6rem;
+    height: 1.5rem;
+    text-align: center;
+    line-height:23px;
+    font-weight: 700;
+  }
+  
+  .container .item-4 .btn:hover {
+      background-color: white;
+      color: #0B090A;
+      transition: all 0.5s ease-in-out;
+  }

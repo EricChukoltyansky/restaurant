@@ -23,10 +23,17 @@ a {
   justify-content: space-between;
   flex-direction: row;
   /* margin: 3rem; */
+  
 }
 .menu-wrap .menu ul {
   margin: 3rem;
   list-style-type: none;
+  
+}
+
+.menu-wrap .menu {
+  border: 2px solid black;
+  margin-top: 5rem;
 }
 
 .menu-wrap .menu ul li {
@@ -50,13 +57,21 @@ a {
   display: inline;
 }
 
+#showcase {
+  text-align: center;
+
+  height: 20%;
+  width: 40%;
+}
+
 #showcase h1 {
   text-align: center;
-  height: 100%;
+  height: 20%;
   color: rgb(255, 255, 255);
   font-family: "Merienda", cursive;
   font-size: 80px;
   font-weight: 400;
+
+  margin-left: 41rem;
+  width: 50%;
 }
-
-
