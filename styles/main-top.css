@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Nanum+Gothic+Coding&display=swap");
+
+#page2 .top-container {
+  display: flex;
+  width: 100vw;
+}
+
+#page2 .left-container {
+  background-image: url("/assets/img/edward-howell-gkHYrtEpjrQ-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 50vw;
+}
+
+#page2 .right-container {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+}
+
+#page2 .top-container .right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #161a1d;
+  font-size: 50px;
+  font-family: "Merienda", cursive;
+
+  font-weight: 700;
+}
+
+#page2 .top-container .right-container p {
+  font-size: 1.4rem;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  line-height: 35px;
+}
+
+#page2 .top-container .btn {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  padding: 0.7rem;
+
+  color: #660708;
+  border: 2px solid #660708;
+}
+
+#page2 .top-container .btn:hover {
+  color: white;
+  background: #660708;
+  transition: all 0.5s ease-in-out;
+}
+
+#page2 .top-container p {
+  font-family: "Nanum Gothic Coding", monospace;
+}

@@ -88,17 +88,17 @@
 }
 
 .menu-wrap .menu {
-  padding-top: 10rem;
-  top: 0rem;
-  left: 0rem;
+  border: 2px black;
+}
+
+.menu-wrap .menu {
   width: 35vw;
   height: 100%;
-  /* visibility: hidden; */
+  visibility: hidden;
   overflow: hidden;
-  /* display: flex; */
+
   align-items: center;
   justify-content: center;
-  z-index: 5;
 }
 
 .menu-wrap .menu > div {
@@ -123,8 +123,13 @@
 }
 
 .menu-wrap .menu > div > div > ul > li > a:hover {
-  color: #660708;
+  color: #d3d3d3;
 }
 
 @media (max-width: 678px) {
+  .menu-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }

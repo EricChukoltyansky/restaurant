@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Nanum+Gothic+Coding&display=swap");
+
+#page3 .middle-container {
+  display: flex;
+  width: 100vw;
+}
+
+#page3 .right-container {
+  background-image: url("/assets/img/pexels-cottonbro-4253312.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 50vw;
+}
+
+#page3 .left-container {
+  height: 100vh;
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+}
+
+#page3 .middle-container .left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #161a1d;
+  font-size: 50px;
+  font-family: "Merienda", cursive;
+
+  font-weight: 700;
+}
+
+#page3 .middle-container .left-container p {
+  font-size: 1.4rem;
+  padding-left: 0.8rem;
+  padding-top: 1.5rem;
+  line-height: 35px;
+}
+
+#page3 .middle-container .btn {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  padding: 0.7rem;
+
+  color: #660708;
+  border: 2px solid #660708;
+}
+
+#page3 .middle-container p {
+  font-family: "Nanum Gothic Coding", monospace;
+}

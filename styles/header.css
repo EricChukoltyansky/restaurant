@@ -24,12 +24,12 @@ a {
   flex-direction: row;
   /* margin: 3rem; */
 }
- .menu-wrap .menu ul {
+.menu-wrap .menu ul {
   margin: 3rem;
   list-style-type: none;
 }
 
- .menu-wrap .menu ul li {
+.menu-wrap .menu ul li {
   padding-bottom: 2rem;
   font-family: "Nanum Gothic Coding", monospace;
   font-size: 28px;
@@ -37,10 +37,8 @@ a {
   line-height: 32px;
 }
 
-
-
 #page1 .menu-wrap button {
-  background: black;
+  background: #161a1d;
   width: 12rem;
   height: 3rem;
   color: #f5f3f4;
@@ -49,18 +47,16 @@ a {
   font-weight: 600;
   border: none;
   cursor: pointer;
+  display: inline;
 }
 
 #showcase h1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   height: 100%;
   color: rgb(255, 255, 255);
   font-family: "Merienda", cursive;
   font-size: 80px;
-
   font-weight: 400;
 }
+
+
