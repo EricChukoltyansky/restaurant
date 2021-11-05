@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Nanum+Gothic+Coding&display=swap");
 
-#page3 .middle-container {
+#page4 .bottom-container {
   display: flex;
   width: 100vw;
 }
 
-#page3 .right-container {
-  background-image: url("/assets/img/pexels-cottonbro-4253312.jpg");
+#page4 .left-container {
+  background-image: url("/assets/img/annie-spratt-nGWTnG7JXdw-unsplash.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,15 +14,14 @@
   width: 50vw;
 }
 
-#page3 .left-container {
+#page4 .right-container {
   height: 100vh;
-  width: 50%;
-
+  width: 50vw;
   display: flex;
   align-items: center;
 }
 
-#page3 .middle-container .left-container {
+#page4 .bottom-container .right-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,14 +33,14 @@
   font-weight: 700;
 }
 
-#page3 .middle-container .left-container p {
+#page4 .bottom-container .right-container p {
   font-size: 1.4rem;
-  padding-left: 0.8rem;
+  padding-left: 1.5rem;
   padding-top: 1.5rem;
   line-height: 35px;
 }
 
-#page3 .middle-container .btn {
+#page4 .bottom-container .btn {
   font-size: 1.7rem;
   margin-top: 2rem;
   padding: 0.7rem;
@@ -50,12 +49,12 @@
   border: 2px solid #660708;
 }
 
-#page3 .middle-container .btn:hover {
-    color: white;
-    background: #660708;
-    transition: all 0.5s ease-in-out;
-  }
+#page4 .bottom-container .btn:hover {
+  color: white;
+  background: #660708;
+  transition: all 0.5s ease-in-out;
+}
 
-#page3 .middle-container p {
+#page4 .bottom-container p {
   font-family: "Nanum Gothic Coding", monospace;
 }
