@@ -176,10 +176,11 @@
         width: 100%
     }
 
-    .item-4, .item-1{
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        height: 100%;
+    .item-1 .btn, .item-4 .btn{
+        display:none;
+    }
+
+    .item-1:hover {
+        cursor: pointer;
     }
 }
