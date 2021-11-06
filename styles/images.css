@@ -3,11 +3,11 @@
 .images-container {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  /* grid-template-rows: auto auto auto; */
-  /* grid-gap: 0.1rem; */
   width: 100vw;
   height: 100vh;
 }
+
+/* IMAGES */
 
 .item-1 {
   background-image: url("/assets/img/mads-eneqvist-izxSMW8I5Ts-unsplash.jpg");
@@ -19,9 +19,8 @@
   position: relative;
   color: white;
   z-index: 5;
-  
+
   padding: 5rem;
-  
 }
 
 .item-1::before {
@@ -55,7 +54,6 @@
   font-family: "Nanum Gothic Coding", monospace;
   line-height: 16px;
   font-weight: 600;
-  
 }
 
 .images-container .item-1 .btn {
@@ -68,17 +66,15 @@
   width: 6rem;
   height: 1.5rem;
   text-align: center;
-  line-height:23px;
+  line-height: 23px;
   font-weight: 700;
 }
 
 .images-container .item-1 .btn:hover {
-    background-color: white;
-    color: #0B090A;
-    transition: all 0.5s ease-in-out;
+  background-color: white;
+  color: #0b090a;
+  transition: all 0.5s ease-in-out;
 }
-
-
 
 .item-2 {
   background-image: url("/assets/img/delightin-dee--iBOhlbX32s-unsplash.jpg");
@@ -108,7 +104,7 @@
   position: relative;
   color: white;
   z-index: 5;
-  
+
   padding: 5rem;
 }
 
@@ -124,63 +120,66 @@
 }
 
 .item-4 h3 {
-    font-size: 22px;
-    font-weight: 700;
-    font-family: "Nanum Gothic Coding", monospace;
-  }
-  
-  .item-4 hr {
-    width: 90%;
-  }
-  
-  .item-4 h2 {
-    font-size: 30px;
-    font-weight: 700;
-    font-family: "Merienda", cursive;
-  }
-  
-  .item-4 h4 {
-    font-family: "Nanum Gothic Coding", monospace;
-    line-height: 16px;
-    font-weight: 600;
-    
-  }
-  
-  .images-container .item-4 .btn {
-    color: white;
-    border: 1px solid white;
-    margin-top: 2rem;
-    position: absolute;
-    top: 11.5rem;
-    font-family: "Nanum Gothic Coding", monospace;
-    width: 6rem;
-    height: 1.5rem;
-    text-align: center;
-    line-height:23px;
-    font-weight: 700;
-  }
-  
-  .images-container .item-4 .btn:hover {
-      background-color: white;
-      color: #0B090A;
-      transition: all 0.5s ease-in-out;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+.item-4 hr {
+  width: 90%;
+}
+
+.item-4 h2 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Merienda", cursive;
+}
+
+.item-4 h4 {
+  font-family: "Nanum Gothic Coding", monospace;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.images-container .item-4 .btn {
+  color: white;
+  border: 1px solid white;
+  margin-top: 2rem;
+  position: absolute;
+  top: 11.5rem;
+  font-family: "Nanum Gothic Coding", monospace;
+  width: 6rem;
+  height: 1.5rem;
+  text-align: center;
+  line-height: 23px;
+  font-weight: 700;
+}
+
+.images-container .item-4 .btn:hover {
+  background-color: white;
+  color: #0b090a;
+  transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 678px) {
+  .images-container {
+    display: flex;
+    flex-direction: column;
   }
 
-  @media (max-width:678px) {
-    .images-container {
-        display: flex;
-        flex-direction: column;
-    }
+  .images-container .item-1,
+  .images-container .item-4,
+  .item-2,
+  .item-3 {
+    width: 100%;
+  }
 
-    .images-container .item-1, .images-container .item-4, .item-2, .item-3 {
-        width: 100%
-    }
+  .item-1 .btn,
+  .item-4 .btn {
+    display: none;
+  }
 
-    .item-1 .btn, .item-4 .btn{
-        display:none;
-    }
-
-    .item-1:hover {
-        cursor: pointer;
-    }
+  .item-1:hover {
+    cursor: pointer;
+  }
 }

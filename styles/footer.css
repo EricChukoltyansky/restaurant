@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Nanum+Gothic+Coding&display=swap");
 
+
+/* NEWS REGISTRATION */
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -44,6 +46,8 @@
   background: #b1a7a6;
 }
 
+/* INFORMATION ABOUT THE RESTAURANT */
+
 .footer .middle-left {
   grid-column: 1 / span 2;
   grid-row: 4 / span 6;
@@ -51,6 +55,8 @@
   height: 100%;
   width: 100%;
 }
+
+/* COLORS */
 
 .footer .middle-right {
   grid-column: 3 / span 1;
@@ -69,6 +75,8 @@
   border: #660708;
   color: #660708;
 }
+
+/* ALL RIGHTS RESERVED */
 
 .footer .bottom {
   grid-column: 1 / span 3;
@@ -94,7 +102,6 @@
 
 .middle-left .left {
   margin-left: 2rem;
-  /* border: 2px solid black ; */
   width: 9rem;
 }
 
