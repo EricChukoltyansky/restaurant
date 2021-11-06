@@ -58,3 +58,14 @@
 #page4 .bottom-container p {
   font-family: "Nanum Gothic Coding", monospace;
 }
+
+@media (max-width:678px) {
+    .bottom-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #page4 .left-container, #page4 .right-container {
+        width: 100%
+    }
+}

@@ -10,6 +10,8 @@ a {
   text-decoration: none;
 }
 
+
+
 #page1 {
   background: url("/assets/img/mads-eneqvist-hGMl7nmyQ_o-unsplash.jpg");
   background-position: 60% 90%;
@@ -39,9 +41,9 @@ a {
 .menu-wrap .menu ul li {
   padding-bottom: 2rem;
   font-family: "Nanum Gothic Coding", monospace;
-  font-size: 28px;
+  font-size: 3rem;
   font-weight: 600;
-  line-height: 32px;
+  line-height: 2.5rem;
 }
 
 #page1 .menu-wrap button {
@@ -59,19 +61,23 @@ a {
 
 #showcase {
   text-align: center;
-
   height: 20%;
-  width: 40%;
+  width: 100%;
 }
 
 #showcase h1 {
-  text-align: center;
   height: 20%;
   color: rgb(255, 255, 255);
   font-family: "Merienda", cursive;
-  font-size: 80px;
+  font-size: 6rem;
   font-weight: 400;
-
-  margin-left: 41rem;
-  width: 50%;
+  
 }
+
+.huge-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+

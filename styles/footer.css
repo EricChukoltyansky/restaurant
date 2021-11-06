@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Nanum+Gothic+Coding&display=swap");
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.footer .top {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 3;
+  background-color: #b1a7a6;
+  height: 100%;
+  width: 100%;
+  color: #0b090a;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding-top: 3rem;
+}
+
+.footer .top h1 {
+  font-weight: 700;
+  font-size: 42px;
+  font-family: "Merienda", cursive;
+}
+
+.footer .top p {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Nanum Gothic Coding", monospace;
+  margin-top: 1rem;
+}
+
+.footer .top input {
+  border-top: #b1a7a6;
+  border-left: #b1a7a6;
+  border-right: #b1a7a6;
+  border-bottom: #660708;
+  background: #b1a7a6;
+}
+
+.footer .middle-left {
+  grid-column: 1 / span 2;
+  grid-row: 4 / span 6;
+  background-color: #161a1d;
+  height: 100%;
+  width: 100%;
+}
+
+.footer .middle-right {
+  grid-column: 3 / span 1;
+  grid-row: 4 / span 6;
+  background-color: #660708;
+  height: 100%;
+  width: 100%;
+}
+
+.footer button {
+  margin-top: 2rem;
+  width: 5rem;
+  height: 2.5rem;
+  font-family: "Nanum Gothic Coding", monospace;
+  cursor: pointer;
+  border: #660708;
+  color: #660708;
+}
+
+.footer .bottom {
+  grid-column: 1 / span 3;
+  grid-row: 10 / span 1;
+  background-color: #0b090a;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-family: "Nanum Gothic Coding", monospace;
+  line-height: 1.6rem;
+}
+
+.middle-left h1 {
+  margin: 2.5rem;
+  font-size: 46px;
+  font-weight: 400;
+  font-family: "Merienda", cursive;
+  color: white;
+}
+
+.middle-left .left {
+  margin-left: 2rem;
+  /* border: 2px solid black ; */
+  width: 9rem;
+}
+
+.middle-left .left div,
+.middle-left .center div,
+.middle-left .right div {
+  margin-bottom: 2.5rem;
+}
+
+.middle-left a {
+  color: white;
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+.footer .bottom {
+  color: white;
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  line-height: 5rem;
+}
+
+.footer .flex-container button {
+  width: 10rem;
+  background: #161a1d;
+  color: #f5f3f4;
+  border: 2px solid #f5f3f4;
+}
+
+.footer .flex-container button:hover {
+  width: 10rem;
+  background: #BA181B;
+  color: #0b090a;
+  border: 2px solid #BA181B;
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+.flex-container .right p {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.social {
+    display: flex;
+}
+
+.social .fab{
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    
+}
+
+.social .fa-facebook:hover {
+    position: relative;
+}
+
+.social .fa-facebook:hover::after {
+    content: "";
+    color: #BA181B;
+    top:5rem;
+    left:5rem;
+    color:white;
+    position: absolute;
+    z-index: 1;
+    
+}

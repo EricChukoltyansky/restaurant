@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Nanum+Gothic+Coding&display=swap");
 
-.container {
+.images-container {
   display: grid;
   grid-template-columns: repeat(3, auto);
   /* grid-template-rows: auto auto auto; */
@@ -58,7 +58,7 @@
   
 }
 
-.container .item-1 .btn {
+.images-container .item-1 .btn {
   color: white;
   border: 1px solid white;
   margin-top: 2rem;
@@ -72,7 +72,7 @@
   font-weight: 700;
 }
 
-.container .item-1 .btn:hover {
+.images-container .item-1 .btn:hover {
     background-color: white;
     color: #0B090A;
     transition: all 0.5s ease-in-out;
@@ -146,7 +146,7 @@
     
   }
   
-  .container .item-4 .btn {
+  .images-container .item-4 .btn {
     color: white;
     border: 1px solid white;
     margin-top: 2rem;
@@ -160,8 +160,26 @@
     font-weight: 700;
   }
   
-  .container .item-4 .btn:hover {
+  .images-container .item-4 .btn:hover {
       background-color: white;
       color: #0B090A;
       transition: all 0.5s ease-in-out;
   }
+
+  @media (max-width:678px) {
+    .images-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .images-container .item-1, .images-container .item-4, .item-2, .item-3 {
+        width: 100%
+    }
+
+    .item-4, .item-1{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        height: 100%;
+    }
+}
