@@ -10,8 +10,6 @@ a {
   text-decoration: none;
 }
 
-
-
 #page1 {
   background: url("/assets/img/mads-eneqvist-hGMl7nmyQ_o-unsplash.jpg");
   background-position: 60% 90%;
@@ -25,18 +23,16 @@ a {
   justify-content: space-between;
   flex-direction: row;
   /* margin: 3rem; */
-  
 }
 .menu-wrap .menu ul {
   margin: 3rem;
   list-style-type: none;
-  
 }
 
 .menu-wrap .menu {
   border: 2px solid black;
   margin-top: 5rem;
-  width: 100%
+  width: 100%;
 }
 
 .menu-wrap .menu ul li {
@@ -72,7 +68,6 @@ a {
   font-family: "Merienda", cursive;
   font-size: 6rem;
   font-weight: 400;
-  
 }
 
 .huge-container {
@@ -80,10 +75,9 @@ a {
   flex-direction: column;
 }
 
-
-@media(max-width: 577px) {
+@media (max-width: 577px) {
   .menu-wrap .menu {
-    margin-top:0rem;
+    margin-top: 0rem;
   }
 
   .menu-wrap .menu ul li {
@@ -92,5 +86,9 @@ a {
     font-size: 1.5rem;
     font-weight: 600;
     line-height: 2.5rem;
+  }
+
+  #showcase h1 {
+    font-size:3rem;
   }
 }
