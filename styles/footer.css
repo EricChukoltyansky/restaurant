@@ -147,18 +147,18 @@
     
 }
 
-.social .fa-facebook:hover {
-    position: relative;
-}
 
-.social .fa-facebook:hover::after {
-    content: "";
+
+.social .fa-facebook:hover, .social .fa-instagram:hover{
+    /* content: ""; */
     color: #BA181B;
     top:5rem;
     left:5rem;
-    color:white;
-    position: absolute;
-    z-index: 1;
+    /* color:white; */
+    /* position: absolute; */
+    /* z-index: 1; */
+    transform: scale(1.3);
+    cursor: pointer;
     
 }
 

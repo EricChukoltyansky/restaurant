@@ -36,6 +36,7 @@ a {
 .menu-wrap .menu {
   border: 2px solid black;
   margin-top: 5rem;
+  width: 100%
 }
 
 .menu-wrap .menu ul li {
@@ -80,4 +81,16 @@ a {
 }
 
 
+@media(max-width: 577px) {
+  .menu-wrap .menu {
+    margin-top:0rem;
+  }
 
+  .menu-wrap .menu ul li {
+    padding-bottom: 2rem;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+  }
+}
